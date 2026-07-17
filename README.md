@@ -1,32 +1,44 @@
-# Osmos Desktop Client (`osmos-ts`)
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Osmos Desktop: early Tauri, React, and TypeScript client foundation">
+</p>
 
-A cross-platform desktop application for the **[Osmos](https://useosmos.com)** local-first version control system, built with **Tauri**, **React**, and **TypeScript**. 
+# Osmos Desktop
 
-This app provides a premium, user-friendly graphical interface for managing repositories, tracking working-tree changes, committing snapshots, switching branches, and merging conflicts across Windows, macOS, and Linux.
+This repository is the cross-platform desktop-client foundation for [Osmos](https://useosmos.com). It combines a Tauri 2 shell with a React 19 and TypeScript frontend, ready to grow into a graphical interface for the local version-control engine in [`osmos-core`](../osmos-core).
 
-## Architecture
+> Status: early foundation. The current UI is the starter screen and the Rust bridge exposes a sample `greet` command; repository management screens are not implemented here yet.
 
-This frontend client interacts with the `osmos-core` daemon:
+## Stack
 
-- **Frontend:** React + TypeScript (Vite)
-- **Backend:** Tauri (Rust)
-- **Core:** The `osmos-core` daemon running locally, handling all file hashing, encryption, and peer-to-peer sync via mDNS.
+- **Desktop runtime:** Tauri 2 + Rust
+- **Frontend:** React 19, TypeScript, Vite
+- **Intended engine:** the local `osmos-core` daemon
 
-## Development Setup
+## Run locally
 
-### Prerequisites
-- Node.js & npm
-- Rust (for Tauri backend)
-- OS-specific dependencies for Tauri (e.g., `webkit2gtk` on Linux, Xcode on macOS, Visual Studio C++ on Windows)
+You need Node.js, npm, Rust, and the platform dependencies required by Tauri.
 
-### Running Locally
+```bash
+npm install
+npm run tauri dev
+```
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+For a production frontend build:
 
-2. Start the development server:
-   ```bash
-   npm run tauri dev
-   ```
+```bash
+npm run build
+```
+
+## Current shape
+
+```text
+src/           React entry point and starter interface
+src-tauri/     Tauri application, Rust command bridge, packaging settings
+public/        Vite and Tauri static assets
+```
+
+The next product work belongs in the client layer: connecting to the local daemon, presenting repository status and history, and adding safe flows for commits and branches.
+
+## License
+
+No license file is currently included in this repository.

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Osmos Desktop</title>
+  <desc id="desc">An early Tauri, React, and TypeScript desktop-client foundation for Osmos Core.</desc>
+  <rect width="1200" height="340" rx="26" fill="#11201e"/>
+  <path d="M48 66H1152M48 274H1152" stroke="#31534e"/>
+  <text x="58" y="48" fill="#76d9c7" font-family="ui-monospace, monospace" font-size="14" letter-spacing="2">TAURI + REACT + TYPESCRIPT / EARLY CLIENT FOUNDATION</text>
+  <text x="58" y="116" fill="#f4fbf8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="56" font-weight="700" letter-spacing="-2">Osmos Desktop</text>
+  <text x="58" y="158" fill="#bed2cc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="21">The cross-platform shell for a future local-first version-control interface.</text>
+  <g transform="translate(58 205)" font-family="ui-monospace, monospace" font-size="14">
+    <rect width="142" height="42" rx="8" fill="#17302c"/><text x="17" y="26" fill="#d9f4ed">React 19</text>
+    <rect x="153" width="142" height="42" rx="8" fill="#17302c"/><text x="170" y="26" fill="#d9f4ed">Tauri 2</text>
+    <rect x="306" width="164" height="42" rx="8" fill="#17302c"/><text x="323" y="26" fill="#d9f4ed">TypeScript</text>
+  </g>
+  <g transform="translate(880 88)">
+    <rect width="260" height="160" rx="16" fill="#e6f4f0"/>
+    <rect x="14" y="14" width="232" height="26" rx="7" fill="#c8e3dc"/>
+    <circle cx="30" cy="27" r="4" fill="#0d6f66"/><circle cx="44" cy="27" r="4" fill="#67b7a9"/>
+    <rect x="30" y="62" width="91" height="13" rx="6" fill="#174c45"/>
+    <rect x="30" y="91" width="181" height="9" rx="4" fill="#97bbb3"/>
+    <rect x="30" y="112" width="150" height="9" rx="4" fill="#bad6cf"/>
+    <rect x="30" y="133" width="108" height="9" rx="4" fill="#bad6cf"/>
+    <text x="30" y="148" fill="#38655d" font-family="ui-monospace, monospace" font-size="11">UI IN PROGRESS</text>
+  </g>
+  <text x="58" y="308" fill="#91aaa4" font-family="ui-monospace, monospace" font-size="13" letter-spacing="1">CURRENTLY: STARTER UI + TAURI COMMAND BRIDGE</text>
+</svg>
