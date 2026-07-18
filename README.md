@@ -41,4 +41,4 @@ The next product work belongs in the client layer: connecting to the local daemo
 
 ## License
 
-No license file is currently included in this repository.
+MIT — see [LICENSE](./LICENSE). Consistent with [`osmos-core`](https://github.com/Osmos-App/osmos-core) and [`osmos-website`](https://github.com/Osmos-App/osmos-website).
