@@ -4,6 +4,8 @@
 
 # Osmos Desktop
 
+[🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
+
 This repository is the cross-platform desktop-client foundation for [Osmos](https://useosmos.com). It combines a Tauri 2 shell with a React 19 and TypeScript frontend, ready to grow into a graphical interface for the local version-control engine in [`osmos-core`](../osmos-core).
 
 > Status: early foundation. The current UI is the starter screen and the Rust bridge exposes a sample `greet` command; repository management screens are not implemented here yet.
